@@ -1,6 +1,7 @@
 import { test, expect } from "vitest";
 
-import { fibGenerator } from "./index";
+// import { fibGenerator } from "./index";
+import { fibGenerator } from "./index1";
 
 test("callCount 5", () => {
   const gen = fibGenerator();
